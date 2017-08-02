@@ -30,7 +30,6 @@ class DoNothingVC: UIViewController {
         super.viewDidLoad()
         if bgImageView.viewWithTag(18) == nil
         {
-            //  Mask header image
             let toBeMaskedFrame = CGRect(x: 0, y: 0, width: 1.5 * self.bgImageView.frame.width, height: 1.5 * self.bgImageView.frame.height)
             let maskFrame = self.maskHeaderImageView(frame: toBeMaskedFrame)
             maskFrame.tag = 18

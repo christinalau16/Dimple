@@ -20,8 +20,8 @@ class ImagineVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     var player:AVPlayer = AVPlayer()
     var playerLayer: AVPlayerLayer = AVPlayerLayer()
     
-    let filepaths = ["riverVideo", "lighthouseVideo", "blossomVideo", "snowVideo", "fieldVideo"]
-    let filePathImages = [#imageLiteral(resourceName: "iconRiver"), #imageLiteral(resourceName: "iconLighthouse"), #imageLiteral(resourceName: "iconBlossom"), #imageLiteral(resourceName: "iconSnow"), #imageLiteral(resourceName: "iconField")]
+    let filepaths = ["lighthouseVideo", "riverVideo", "blossomVideo", "snowVideo", "fieldVideo"]
+    let filePathImages = [#imageLiteral(resourceName: "iconLighthouse"), #imageLiteral(resourceName: "iconRiver"), #imageLiteral(resourceName: "iconBlossom"), #imageLiteral(resourceName: "iconSnow"), #imageLiteral(resourceName: "iconField")]
     
     var containerViewController: CheckboxViewController?
     let containerSegueName = "checkboxSegue"

@@ -44,7 +44,7 @@ class GeneralVC: UIViewController {
     func maskHeaderImageView(frame : CGRect)-> UIView
     {
         let overlayView = UIView(frame: frame)
-        overlayView.alpha = 0.5
+        overlayView.alpha = 0.4
         overlayView.backgroundColor = UIColor.black
         
         let path = CGMutablePath()

@@ -12,12 +12,12 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDelegate
     
     let formatter = DateFormatter()
     var nextPageIndex = 0
-    let vcPageNames = ["Write", "Make tea", "Breathe deeply", "Take a nap", "Stand tall", "Massage your temples", "Drink hot water", "Dance", "Body clench", "Let your feelings out", "Craft", "Eat a banana", "Chew some gum", "Buy a houseplant", "Eat a snack", "Calming scenes", "Listen to music", "Do nothing for 1 minute", "Write", "Watch some comedy", "Have a joke", "Ten minute walk", "Run", "Play a sport", "Take a warm bath", "Naam yoga hand trick"]
+    let vcPageNames = ["Massage your temples", "Have a joke", "Breathe deeply", "Calming scenes", "Stand tall", "Drink hot water", "Body clench", "Dance","Let your feelings out", "Craft", "Eat a banana", "Chew some gum", "Buy a houseplant", "Eat a snack", "Take a nap", "Listen to music", "Do nothing for 1 minute", "Write", "Watch some comedy", "Make tea", "Ten minute walk", "Run", "Play a sport", "Take a warm bath", "Naam yoga hand trick"]
 
     lazy var viewControllerList:[UIViewController] = {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         var instantiatedVC: [UIViewController] = []
-        let vcNames = ["writeVC", "teaVC", "breatheVC", "sleepVC", "standVC", "templesVC", "waterVC", "danceVC", "bodyVC", "feelingsVC", "craftVC", "bananaVC", "gumVC", "plantVC", "eatVC", "imagineVC", "musicVC", "doNothingVC", "writeVC", "comedyVC", "jokeVC", "walkVC", "runVC", "sportVC", "bathVC", "handVC"]
+        let vcNames = ["templesVC", "jokeVC", "breatheVC", "imagineVC", "standVC", "waterVC", "bodyVC", "danceVC", "feelingsVC", "craftVC", "bananaVC", "gumVC", "plantVC", "eatVC", "sleepVC", "musicVC", "doNothingVC", "writeVC", "comedyVC", "teaVC", "walkVC", "runVC", "sportVC", "bathVC", "handVC"]
         for vcName in vcNames
         {
             let vc = sb.instantiateViewController(withIdentifier: vcName)
@@ -55,8 +55,6 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDelegate
 
         let currentPageName = vcPageNames[nextPageIndex]
         let currentPage = DatePage(pageName: currentPageName, starred: false)
-        currentPage.pageName = currentPageName
-        currentPage.starred = false
         
         let userDefaults = UserDefaults.standard
         var savedDictionary: [String: [DatePage]]
@@ -65,23 +63,6 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDelegate
             savedDictionary = NSKeyedUnarchiver.unarchiveObject(with: userDefaults.object(forKey: "calendarData") as! Data) as! [String: [DatePage]]
         } else {
             savedDictionary = [:]
-            for i in 1...31
-            {
-                let createdDate : String
-                if i > 0 && i < 10
-                {
-                    createdDate = "2017 07 0" + String(i)
-                } else {
-                    createdDate = "2017 07 " + String(i)
-                }
-                var createdDayArray = [DatePage]()
-                var randomNum = Int(arc4random_uniform(25))
-                while randomNum > 0 && randomNum < 15 {
-                    createdDayArray.append(currentPage)
-                    randomNum -= 1
-                }
-                savedDictionary.updateValue(createdDayArray, forKey: createdDate)
-            }
         }
         let userDate = formatter.string(from: Date())
         if let dayArray = savedDictionary[userDate]{

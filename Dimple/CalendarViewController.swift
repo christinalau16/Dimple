@@ -121,7 +121,7 @@ class CalendarViewController: UIViewController, UITableViewDelegate, UITableView
         {
             if cellState.dateBelongsTo == .thisMonth
             {
-                validCell.dateLabel.textColor = UIColor(red: 102.0/255.0, green: 40.0/255.0, blue: 146.0/255.0, alpha: 1.0) //UIColor(red: 58.0/255.0, green: 58.0/255.0, blue: 153.0/255.0, alpha: 1.0)
+                validCell.dateLabel.textColor = UIColor(red: 102.0/255.0, green: 40.0/255.0, blue: 146.0/255.0, alpha: 1.0) 
             } else {
                 validCell.dateLabel.textColor = UIColor.clear
             }
@@ -159,7 +159,6 @@ class CalendarViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "CalendarTableViewCell") as! CalendarTableViewCell
         cell.pageNameLabel.text = currentPages[indexPath.row].pageName
         cell.starImage.isHidden = !currentPages[indexPath.row].starred!
-        //cell.setColorView(index: indexPath.row)
         cell.setBackgroundView(index: indexPath.row, rowCount: currentPages.count)
         return cell
     }
@@ -191,7 +190,7 @@ extension CalendarViewController: JTAppleCalendarViewDataSource,JTAppleCalendarV
         formatter.dateFormat = "yyyy MM dd"
         let selectedDate = formatter.string(from: date)
         for key in savedDictionary.keys{
-            if key == selectedDate
+            if key == selectedDate && cellState.dateBelongsTo == .thisMonth
             {
                 currentPages = savedDictionary[key]!
                 foundKey = true

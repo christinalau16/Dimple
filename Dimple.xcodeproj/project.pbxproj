@@ -11,6 +11,7 @@
 		52312EFD1F1ED71E0053335A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52312EFC1F1ED71E0053335A /* CalendarViewController.swift */; };
 		527273871F0DB86B00DD19C6 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273861F0DB86B00DD19C6 /* RootPageViewController.swift */; };
 		5272738A1F133E1100DD19C6 /* GeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273891F133E1100DD19C6 /* GeneralVC.swift */; };
+		527D489B1F3264C6006D7499 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D489A1F3264C5006D7499 /* AdViewController.swift */; };
 		528357071F1883FE00C7F6D2 /* DoNothingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528357061F1883FE00C7F6D2 /* DoNothingVC.swift */; };
 		5283570C1F19CFC500C7F6D2 /* musicSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5283570B1F19CFC500C7F6D2 /* musicSong.mp3 */; };
 		5283570E1F19F56F00C7F6D2 /* doNothingSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5283570D1F19F56F00C7F6D2 /* doNothingSong.mp3 */; };
@@ -41,6 +42,7 @@
 		52312EFC1F1ED71E0053335A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		527273861F0DB86B00DD19C6 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		527273891F133E1100DD19C6 /* GeneralVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralVC.swift; sourceTree = "<group>"; };
+		527D489A1F3264C5006D7499 /* AdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		528357061F1883FE00C7F6D2 /* DoNothingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoNothingVC.swift; sourceTree = "<group>"; };
 		5283570B1F19CFC500C7F6D2 /* musicSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicSong.mp3; sourceTree = "<group>"; };
 		5283570D1F19F56F00C7F6D2 /* doNothingSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doNothingSong.mp3; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				528357081F19CBD500C7F6D2 /* Sounds */,
 				528357131F1AB70A00C7F6D2 /* Videos */,
 				52B0828E1F0D67AF0044AC85 /* AppDelegate.swift */,
+				527D489A1F3264C5006D7499 /* AdViewController.swift */,
 				527273861F0DB86B00DD19C6 /* RootPageViewController.swift */,
 				52FCA9291F2A98AA00C473AC /* DatePage.swift */,
 				52FCA92F1F2C821B00C473AC /* Calendar */,
@@ -352,6 +355,7 @@
 				528357071F1883FE00C7F6D2 /* DoNothingVC.swift in Sources */,
 				52312EFB1F1ED5FF0053335A /* CustomCell.swift in Sources */,
 				5272738A1F133E1100DD19C6 /* GeneralVC.swift in Sources */,
+				527D489B1F3264C6006D7499 /* AdViewController.swift in Sources */,
 				528357101F19FA1A00C7F6D2 /* MusicVC.swift in Sources */,
 				5283C3241F135EA400C1BF0E /* JokeVC.swift in Sources */,
 				5283C3281F1405AC00C1BF0E /* HelpedCheckBox.swift in Sources */,
@@ -492,9 +496,10 @@
 				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
 				INFOPLIST_FILE = "$(SRCROOT)/Dimple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dimple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poweringpositivity.Dimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,9 +512,10 @@
 				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
 				INFOPLIST_FILE = "$(SRCROOT)/Dimple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dimple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poweringpositivity.Dimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
