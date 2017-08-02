@@ -1,0 +1,6 @@
+framework module Pods_DimpleTests {
+  umbrella header "Pods-DimpleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

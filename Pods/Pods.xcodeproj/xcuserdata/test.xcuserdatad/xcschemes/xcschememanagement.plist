@@ -9,22 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Tabbar App example.xcscheme</key>
+		<key>Pods-Dimple.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Tabbar App exampleTests.xcscheme</key>
+		<key>Pods-DimpleTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Tabbar App exampleUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SZTextView.xcscheme</key>
+		<key>Pods-DimpleUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0CE61BFBAE8D6C5E985CB8012D25F39B</key>
+		<key>01063A3FAC1ACCC0ADE67EF8DC8DBF46</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2416600B9E76EE08A034EAF9E63796B6</key>
+		<key>BBB65FBCF205470B6D84F95877DBB9B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29826F5E1340D7108B36F6423513C2C5</key>
+		<key>BE60B071636EA42D5F7965EB1A4500A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BFED2E29E95E065400F8846E0231A970</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2E2578C3FA9313F58CC1A1836296243</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,15 +1,12 @@
 PODS:
   - JTAppleCalendar (7.0.4)
-  - SZTextView (1.3.0)
 
 DEPENDENCIES:
   - JTAppleCalendar
-  - SZTextView
 
 SPEC CHECKSUMS:
   JTAppleCalendar: 6def48ecd0daae1d5baaa45e813124c2a20b184d
-  SZTextView: 094dc6acc9beec537685c545d6e3e0d4975174e1
 
-PODFILE CHECKSUM: c9392c300f7da355925b0dbe5fbc24469fb7b4ad
+PODFILE CHECKSUM: 421dc630d8cbe312c9c6190fa36d382d5739621c
 
 COCOAPODS: 1.2.1
