@@ -1,12 +1,15 @@
 PODS:
+  - Google-Mobile-Ads-SDK (7.21.0)
   - JTAppleCalendar (7.0.4)
 
 DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
   - JTAppleCalendar
 
 SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 4a6f1b43c8cc0e1e95a3b59d9f52a01671c6f9f3
   JTAppleCalendar: 6def48ecd0daae1d5baaa45e813124c2a20b184d
 
-PODFILE CHECKSUM: 421dc630d8cbe312c9c6190fa36d382d5739621c
+PODFILE CHECKSUM: cdd100f91fab385ab6610cb5968b44784d1474ce
 
 COCOAPODS: 1.2.1

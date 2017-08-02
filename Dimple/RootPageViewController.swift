@@ -12,12 +12,12 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDelegate
     
     let formatter = DateFormatter()
     var nextPageIndex = 0
-    let vcPageNames = ["Have a joke", "Make tea", "Breathe deeply", "Take a nap", "Stand tall", "Massage your temples", "Drink hot water", "Dance", "Body clench", "Let your feelings out", "Craft", "Eat a banana", "Chew some gum", "Buy a houseplant", "Eat a snack", "Calming scenes", "Listen to music", "Do nothing for 1 minute", "Write", "Watch some comedy", "Have a joke", "Ten minute walk", "Run", "Play a sport", "Take a warm bath", "Naam yoga hand trick"]
+    let vcPageNames = ["Write", "Make tea", "Breathe deeply", "Take a nap", "Stand tall", "Massage your temples", "Drink hot water", "Dance", "Body clench", "Let your feelings out", "Craft", "Eat a banana", "Chew some gum", "Buy a houseplant", "Eat a snack", "Calming scenes", "Listen to music", "Do nothing for 1 minute", "Write", "Watch some comedy", "Have a joke", "Ten minute walk", "Run", "Play a sport", "Take a warm bath", "Naam yoga hand trick"]
 
     lazy var viewControllerList:[UIViewController] = {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         var instantiatedVC: [UIViewController] = []
-        let vcNames = ["jokeVC", "teaVC", "breatheVC", "sleepVC", "standVC", "templesVC", "waterVC", "danceVC", "bodyVC", "feelingsVC", "craftVC", "bananaVC", "gumVC", "plantVC", "eatVC", "imagineVC", "musicVC", "doNothingVC", "writeVC", "comedyVC", "jokeVC", "walkVC", "runVC", "sportVC", "bathVC", "handVC"]
+        let vcNames = ["writeVC", "teaVC", "breatheVC", "sleepVC", "standVC", "templesVC", "waterVC", "danceVC", "bodyVC", "feelingsVC", "craftVC", "bananaVC", "gumVC", "plantVC", "eatVC", "imagineVC", "musicVC", "doNothingVC", "writeVC", "comedyVC", "jokeVC", "walkVC", "runVC", "sportVC", "bathVC", "handVC"]
         for vcName in vcNames
         {
             let vc = sb.instantiateViewController(withIdentifier: vcName)

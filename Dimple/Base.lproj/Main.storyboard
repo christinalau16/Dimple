@@ -14,7 +14,7 @@
         <!--De-stress-->
         <scene sceneID="rTC-1Y-SQl">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VMY-UM-CTc" customClass="RootPageViewController" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VMY-UM-CTc" customClass="RootPageViewController" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="De-stress" image="destressIcon" id="ymk-aR-Un6">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
@@ -31,7 +31,7 @@
         <!--Ib Calendar Data Source-->
         <scene sceneID="LER-oY-WgU">
             <objects>
-                <viewController id="KsQ-DZ-adO" customClass="CalendarViewController" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KsQ-DZ-adO" customClass="CalendarViewController" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EXS-WF-1XZ"/>
                         <viewControllerLayoutGuide type="bottom" id="XfA-ah-Sf0"/>
@@ -115,7 +115,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCell" id="zsJ-rr-epb" customClass="CustomCell" customModule="Tabbar_App_example" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCell" id="zsJ-rr-epb" customClass="CustomCell" customModule="Dimple" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50.5" width="116" height="116"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -226,7 +226,7 @@
                                 <rect key="frame" x="0.0" y="367" width="375" height="251"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CalendarTableViewCell" id="74T-Ll-fP0" customClass="CalendarTableViewCell" customModule="Tabbar_App_example" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CalendarTableViewCell" id="74T-Ll-fP0" customClass="CalendarTableViewCell" customModule="Dimple" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="74T-Ll-fP0" id="4Da-cb-8ah">
@@ -287,7 +287,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.5209692120552063" green="0.59796786308288574" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.47860318422317505" green="0.50744116306304932" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="fSj-IV-Mpj" firstAttribute="centerX" secondItem="UGc-6o-Z5G" secondAttribute="centerX" id="ZBN-To-iW1"/>
                                     <constraint firstItem="fSj-IV-Mpj" firstAttribute="top" secondItem="UGc-6o-Z5G" secondAttribute="top" constant="40" id="taD-DL-M6e"/>
@@ -356,7 +356,7 @@
         <!--GeneralVC-->
         <scene sceneID="CeN-Bo-nUY">
             <objects>
-                <viewController storyboardIdentifier="teaVC" id="20D-SK-Lh0" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="teaVC" id="20D-SK-Lh0" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cRU-G4-7V4"/>
                         <viewControllerLayoutGuide type="bottom" id="Kwm-Cj-o57"/>
@@ -443,7 +443,7 @@
         <!--JokeVC-->
         <scene sceneID="zHg-N3-Pb1">
             <objects>
-                <viewController storyboardIdentifier="jokeVC" id="iHn-yb-mUU" customClass="JokeVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="jokeVC" id="iHn-yb-mUU" customClass="JokeVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qJE-k8-6nR"/>
                         <viewControllerLayoutGuide type="bottom" id="kRC-18-RuG"/>
@@ -544,7 +544,7 @@
         <!--Checkbox View Controller-->
         <scene sceneID="SrL-Gs-0Y6">
             <objects>
-                <viewController id="fyU-nQ-Pbz" customClass="CheckboxViewController" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fyU-nQ-Pbz" customClass="CheckboxViewController" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XxH-lo-1kS"/>
                         <viewControllerLayoutGuide type="bottom" id="2cd-cT-P26"/>
@@ -556,7 +556,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="qA7-1o-DlN">
                                 <rect key="frame" x="198" y="10" width="160.5" height="20"/>
                                 <subviews>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dj5-vK-93s" customClass="HelpedCheckBox" customModule="Tabbar_App_example" customModuleProvider="target">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dj5-vK-93s" customClass="HelpedCheckBox" customModule="Dimple" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="EeQ-bE-Z4a"/>
@@ -589,7 +589,7 @@
         <!--GeneralVC-->
         <scene sceneID="jcU-Rw-QWN">
             <objects>
-                <viewController storyboardIdentifier="comedyVC" id="ObV-eK-xjU" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="comedyVC" id="ObV-eK-xjU" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eKK-qo-wQj"/>
                         <viewControllerLayoutGuide type="bottom" id="Uza-2r-9IB"/>
@@ -601,7 +601,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgComedy" translatesAutoresizingMaskIntoConstraints="NO" id="J5g-ch-hai">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch some comedy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abo-PK-QoZ">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch some comedy" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abo-PK-QoZ">
                                 <rect key="frame" x="16" y="200" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="pvf-Cs-W0Q"/>
@@ -625,10 +625,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We suggest Monty Python, Mr. Bean, Friends, or Parks and Rec. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASJ-Hj-6Ub">
-                                <rect key="frame" x="21" y="260" width="333" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="4Nn-4c-yvA"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -645,6 +642,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.056317567829999998" green="0.69915193320000002" blue="0.70961755510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="abo-PK-QoZ" firstAttribute="trailing" secondItem="2nL-lL-TzN" secondAttribute="trailingMargin" id="3sK-4B-kmk"/>
                             <constraint firstItem="abo-PK-QoZ" firstAttribute="centerX" secondItem="ASJ-Hj-6Ub" secondAttribute="centerX" id="EpU-UR-RS5"/>
                             <constraint firstAttribute="trailing" secondItem="J5g-ch-hai" secondAttribute="trailing" id="GXw-9O-fiB"/>
                             <constraint firstItem="Uza-2r-9IB" firstAttribute="top" secondItem="9ZX-Jy-gIn" secondAttribute="bottom" constant="2" id="Sae-N3-bhs"/>
@@ -652,6 +650,7 @@
                             <constraint firstAttribute="trailing" secondItem="9ZX-Jy-gIn" secondAttribute="trailing" id="W9T-bP-Z9y"/>
                             <constraint firstItem="OGu-j5-SxM" firstAttribute="trailing" secondItem="2nL-lL-TzN" secondAttribute="trailingMargin" id="WzE-fu-6Dn"/>
                             <constraint firstItem="9ZX-Jy-gIn" firstAttribute="leading" secondItem="2nL-lL-TzN" secondAttribute="leading" id="YuL-fv-uqB"/>
+                            <constraint firstItem="abo-PK-QoZ" firstAttribute="leading" secondItem="2nL-lL-TzN" secondAttribute="leadingMargin" id="b2h-8Y-kBF"/>
                             <constraint firstItem="J5g-ch-hai" firstAttribute="leading" secondItem="2nL-lL-TzN" secondAttribute="leading" id="dHt-MA-gnH"/>
                             <constraint firstItem="OGu-j5-SxM" firstAttribute="top" secondItem="eKK-qo-wQj" secondAttribute="bottom" constant="8" symbolic="YES" id="dJZ-7r-K28"/>
                             <constraint firstItem="abo-PK-QoZ" firstAttribute="top" secondItem="2nL-lL-TzN" secondAttribute="top" constant="200" id="eBQ-6E-eAy"/>
@@ -674,7 +673,7 @@
         <!--GeneralVC-->
         <scene sceneID="6wE-fj-YWz">
             <objects>
-                <viewController storyboardIdentifier="walkVC" id="G0u-ek-MYm" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="walkVC" id="G0u-ek-MYm" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tKl-vu-V6Q"/>
                         <viewControllerLayoutGuide type="bottom" id="5sA-8E-ych"/>
@@ -710,10 +709,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-q7-PEb">
-                                <rect key="frame" x="21" y="249" width="333" height="134"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="134" id="o14-2m-YAG"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="249" width="333" height="119.5"/>
                                 <string key="text">Combat the stress with mood-boosting chemicals (endorphins)! Improve memory and attention by spending time outdoors, and increase energy by exercising. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -760,7 +756,7 @@
         <!--GeneralVC-->
         <scene sceneID="9ib-Yw-aOc">
             <objects>
-                <viewController storyboardIdentifier="runVC" id="ti7-DT-i2t" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="runVC" id="ti7-DT-i2t" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Ay-Rs-h5i"/>
                         <viewControllerLayoutGuide type="bottom" id="Yff-ak-TEF"/>
@@ -796,10 +792,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing like a classic run to get your mind focused. Helps your heart out too!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahT-zH-6gu">
-                                <rect key="frame" x="21" y="260" width="333" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="p6c-He-CZk"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -845,7 +838,7 @@
         <!--GeneralVC-->
         <scene sceneID="8Pl-fl-Mxr">
             <objects>
-                <viewController storyboardIdentifier="sportVC" id="sQ9-ge-JWo" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sportVC" id="sQ9-ge-JWo" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cin-l2-bDj"/>
                         <viewControllerLayoutGuide type="bottom" id="Mbl-hs-dp8"/>
@@ -881,10 +874,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get moving to manage the stress! Try out something new or jump back into an old sport. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtd-nr-81Z">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="IAG-2f-iBP"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -930,7 +920,7 @@
         <!--GeneralVC-->
         <scene sceneID="Hw9-l0-wuJ">
             <objects>
-                <viewController storyboardIdentifier="bathVC" id="eu5-6Q-bwM" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bathVC" id="eu5-6Q-bwM" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c9E-3g-mzr"/>
                         <viewControllerLayoutGuide type="bottom" id="EdB-3L-5gC"/>
@@ -942,7 +932,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgBath" translatesAutoresizingMaskIntoConstraints="NO" id="IgK-pT-qj6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a warm bath" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntd-6D-0LM">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a warm bath" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntd-6D-0LM">
                                 <rect key="frame" x="16" y="200" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="wOH-ln-M1g"/>
@@ -966,10 +956,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soothe your troubles away. Add some essential oils to sharpen your memory and unwind. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aul-sN-D9f">
-                                <rect key="frame" x="21" y="260" width="333" height="78"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="78" id="kTE-Pj-wDi"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1015,7 +1002,7 @@
         <!--GeneralVC-->
         <scene sceneID="vbd-wm-eNU">
             <objects>
-                <viewController storyboardIdentifier="handVC" id="NAo-Ri-qyT" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="handVC" id="NAo-Ri-qyT" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gL4-tS-z7a"/>
                         <viewControllerLayoutGuide type="bottom" id="mao-nm-gGc"/>
@@ -1027,7 +1014,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgHand" translatesAutoresizingMaskIntoConstraints="NO" id="yKD-ut-FyT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naam yoga hand trick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkB-nI-fhX">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naam yoga hand trick" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkB-nI-fhX">
                                 <rect key="frame" x="16" y="200" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="4wI-8w-DkL"/>
@@ -1051,10 +1038,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUR-XS-IcE">
-                                <rect key="frame" x="21" y="244" width="333" height="149"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="149" id="8Mi-Zt-pq0"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="244" width="333" height="119.5"/>
                                 <string key="text">“Reset” yourself by applying pressure to a point on your middle finger, between your second and third knuckles and near where your finger and hand meet.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1078,11 +1062,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="fUR-XS-IcE" secondAttribute="trailing" constant="5" id="5k3-KK-o18"/>
                             <constraint firstItem="yKD-ut-FyT" firstAttribute="leading" secondItem="BlX-f2-e7r" secondAttribute="leading" id="5uC-Wa-0lO"/>
                             <constraint firstItem="yKD-ut-FyT" firstAttribute="top" secondItem="BlX-f2-e7r" secondAttribute="top" id="B5e-Uf-tM3"/>
+                            <constraint firstItem="DkB-nI-fhX" firstAttribute="leading" secondItem="BlX-f2-e7r" secondAttribute="leadingMargin" id="DDk-Ab-EOI"/>
                             <constraint firstItem="DkB-nI-fhX" firstAttribute="top" secondItem="BlX-f2-e7r" secondAttribute="top" constant="200" id="EAU-mz-gPR"/>
                             <constraint firstItem="pqt-zK-NZN" firstAttribute="leading" secondItem="BlX-f2-e7r" secondAttribute="leading" id="Jcf-FL-0Wm"/>
                             <constraint firstItem="mao-nm-gGc" firstAttribute="top" secondItem="pqt-zK-NZN" secondAttribute="bottom" constant="2" id="K46-sB-BLi"/>
                             <constraint firstItem="sCA-qG-7Ag" firstAttribute="trailing" secondItem="BlX-f2-e7r" secondAttribute="trailingMargin" id="KQl-eS-WMc"/>
                             <constraint firstItem="fUR-XS-IcE" firstAttribute="top" secondItem="DkB-nI-fhX" secondAttribute="bottom" constant="10" id="TZN-W5-VKK"/>
+                            <constraint firstItem="DkB-nI-fhX" firstAttribute="trailing" secondItem="BlX-f2-e7r" secondAttribute="trailingMargin" id="Ykw-zb-6Dw"/>
                             <constraint firstItem="sCA-qG-7Ag" firstAttribute="top" secondItem="gL4-tS-z7a" secondAttribute="bottom" constant="8" symbolic="YES" id="aDD-8a-pST"/>
                             <constraint firstAttribute="trailing" secondItem="pqt-zK-NZN" secondAttribute="trailing" id="ewO-Zk-uMT"/>
                             <constraint firstAttribute="trailing" secondItem="yKD-ut-FyT" secondAttribute="trailing" id="oIR-0k-USv"/>
@@ -1101,7 +1087,7 @@
         <!--WriteVC-->
         <scene sceneID="wa3-Oo-WV7">
             <objects>
-                <viewController storyboardIdentifier="writeVC" id="O29-VF-LSX" customClass="WriteVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="writeVC" id="O29-VF-LSX" customClass="WriteVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cf1-z1-eul"/>
                         <viewControllerLayoutGuide type="bottom" id="fnB-ma-g5K"/>
@@ -1126,9 +1112,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Channel all the suppressed emotions into words. Write a few sentences on what’s troubling you:  " translatesAutoresizingMaskIntoConstraints="NO" id="5Or-kb-b8g">
-                                        <rect key="frame" x="20" y="199" width="335" height="326"/>
+                                        <rect key="frame" x="20" y="199" width="335" height="240"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="326" id="yhp-Oy-gj1"/>
+                                            <constraint firstAttribute="height" constant="240" id="yhp-Oy-gj1"/>
                                         </constraints>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1199,7 +1185,7 @@
         <!--Do NothingVC-->
         <scene sceneID="K7q-HP-HiL">
             <objects>
-                <viewController storyboardIdentifier="doNothingVC" id="DJX-dj-Fmf" customClass="DoNothingVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="doNothingVC" id="DJX-dj-Fmf" customClass="DoNothingVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="enE-hB-PLd"/>
                         <viewControllerLayoutGuide type="bottom" id="L5N-gR-k3h"/>
@@ -1211,7 +1197,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgDoNothing" translatesAutoresizingMaskIntoConstraints="NO" id="bzS-Dg-S96">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do nothing for 1 minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgO-cu-1xg">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do nothing for 1 minute" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgO-cu-1xg">
                                 <rect key="frame" x="16" y="150" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="IqJ-Tv-MdQ"/>
@@ -1264,11 +1250,13 @@
                             <constraint firstItem="fgO-cu-1xg" firstAttribute="centerX" secondItem="4fS-Yd-VeC" secondAttribute="centerXWithinMargins" id="GUp-vj-Bll"/>
                             <constraint firstItem="Igr-9R-044" firstAttribute="trailing" secondItem="fgO-cu-1xg" secondAttribute="trailing" id="Icj-Xz-LaW"/>
                             <constraint firstItem="Igr-9R-044" firstAttribute="trailing" secondItem="4fS-Yd-VeC" secondAttribute="trailingMargin" id="Tm8-ux-heN"/>
+                            <constraint firstItem="fgO-cu-1xg" firstAttribute="trailing" secondItem="4fS-Yd-VeC" secondAttribute="trailingMargin" id="UBm-fg-beD"/>
                             <constraint firstItem="L5N-gR-k3h" firstAttribute="top" secondItem="bzS-Dg-S96" secondAttribute="bottom" id="Vbu-o7-sDp"/>
                             <constraint firstItem="foz-5x-wiV" firstAttribute="centerX" secondItem="4fS-Yd-VeC" secondAttribute="centerX" id="Wa0-cQ-oHj"/>
                             <constraint firstItem="Igr-9R-044" firstAttribute="top" secondItem="enE-hB-PLd" secondAttribute="bottom" constant="8" symbolic="YES" id="WqY-kE-H68"/>
                             <constraint firstAttribute="trailing" secondItem="bzS-Dg-S96" secondAttribute="trailing" id="doZ-U6-KaZ"/>
                             <constraint firstItem="zXH-iv-zhj" firstAttribute="leading" secondItem="4fS-Yd-VeC" secondAttribute="leading" id="eKU-Rw-uLe"/>
+                            <constraint firstItem="fgO-cu-1xg" firstAttribute="leading" secondItem="4fS-Yd-VeC" secondAttribute="leadingMargin" id="gGf-bw-kTq"/>
                             <constraint firstItem="bzS-Dg-S96" firstAttribute="leading" secondItem="4fS-Yd-VeC" secondAttribute="leading" id="sxU-fw-1lo"/>
                         </constraints>
                     </view>
@@ -1285,7 +1273,7 @@
         <!--MusicVC-->
         <scene sceneID="vDB-Eu-bga">
             <objects>
-                <viewController storyboardIdentifier="musicVC" id="vPf-3q-ERG" customClass="MusicVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="musicVC" id="vPf-3q-ERG" customClass="MusicVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kEV-6u-sQe"/>
                         <viewControllerLayoutGuide type="bottom" id="9a6-Ff-Yqb"/>
@@ -1379,7 +1367,7 @@
         <!--ImagineVC-->
         <scene sceneID="h1f-le-H4n">
             <objects>
-                <viewController storyboardIdentifier="imagineVC" id="ZVG-m4-U1B" customClass="ImagineVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="imagineVC" id="ZVG-m4-U1B" customClass="ImagineVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bOz-1N-6Mh"/>
                         <viewControllerLayoutGuide type="bottom" id="Cnf-h7-GEh"/>
@@ -1424,7 +1412,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImagineCell" id="Q6Z-zN-grb" customClass="ImagineCollectionViewCell" customModule="Tabbar_App_example" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImagineCell" id="Q6Z-zN-grb" customClass="ImagineCollectionViewCell" customModule="Dimple" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1493,7 +1481,7 @@
         <!--GeneralVC-->
         <scene sceneID="y0u-WC-WDS">
             <objects>
-                <viewController storyboardIdentifier="eatVC" id="Ssy-Wd-1DJ" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="eatVC" id="Ssy-Wd-1DJ" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5pY-6v-ndv"/>
                         <viewControllerLayoutGuide type="bottom" id="iGW-XO-ZDe"/>
@@ -1529,10 +1517,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nourishment for the brain! A hard boiled egg, half an avocado, or a handful of nuts, pick up something filling. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl3-HM-mHG">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="kr1-t9-xDv"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="95.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1579,7 +1564,7 @@
         <!--GeneralVC-->
         <scene sceneID="68s-RU-UFA">
             <objects>
-                <viewController storyboardIdentifier="plantVC" id="Dbs-2f-85n" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="plantVC" id="Dbs-2f-85n" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="arL-Dq-wwd"/>
                         <viewControllerLayoutGuide type="bottom" id="Dtr-Jo-x7h"/>
@@ -1591,7 +1576,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgPlant" translatesAutoresizingMaskIntoConstraints="NO" id="1w8-8Z-WGF">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy a houseplant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ff-XR-bfm">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy a houseplant" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ff-XR-bfm">
                                 <rect key="frame" x="16" y="200" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="iiy-x6-tqC"/>
@@ -1615,10 +1600,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simply being around plants can induce your relaxation response. Plus they’re beautiful air purifiers! " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Js-Ef-rbc">
-                                <rect key="frame" x="21" y="260" width="333" height="85"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="85" id="DZd-ZV-emR"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1665,7 +1647,7 @@
         <!--GeneralVC-->
         <scene sceneID="GYo-66-SUO">
             <objects>
-                <viewController storyboardIdentifier="gumVC" id="1bh-bD-QMi" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="gumVC" id="1bh-bD-QMi" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3tB-qx-5W8"/>
                         <viewControllerLayoutGuide type="bottom" id="fmQ-Me-KVS"/>
@@ -1701,10 +1683,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reduce anxiety and even improve mood, just by gum-chewing. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIW-Sa-ixV">
-                                <rect key="frame" x="21" y="260" width="333" height="65"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="pB5-Kc-UXX"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1751,7 +1730,7 @@
         <!--GeneralVC-->
         <scene sceneID="2Mb-vd-g2r">
             <objects>
-                <viewController storyboardIdentifier="bananaVC" id="7NW-VC-8cJ" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bananaVC" id="7NW-VC-8cJ" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IRu-5P-P9G"/>
                         <viewControllerLayoutGuide type="bottom" id="a4z-Md-Wqa"/>
@@ -1787,10 +1766,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bananas can improve energy and recovery. How? Potassium helps to regulate blood pressure, which rises during times of stress." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOR-72-5Xj">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="UhT-bx-nio"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="95.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1837,7 +1813,7 @@
         <!--GeneralVC-->
         <scene sceneID="JeJ-rj-AGb">
             <objects>
-                <viewController storyboardIdentifier="craftVC" id="UUX-hg-hHw" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="craftVC" id="UUX-hg-hHw" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i9u-SJ-kga"/>
                         <viewControllerLayoutGuide type="bottom" id="ucD-Fx-edk"/>
@@ -1873,10 +1849,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repetitive motions — like knitting, making jewelry or cross-stitching — can soothe anxiety. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aa-P9-f0V">
-                                <rect key="frame" x="21" y="260" width="333" height="74"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="7zn-dF-9Yh"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1886,6 +1859,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="E4l-iL-70Q"/>
                                 </constraints>
+                                <connections>
+                                    <segue destination="fyU-nQ-Pbz" kind="embed" id="oFT-y9-8rW"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.056317567829999998" green="0.69915193320000002" blue="0.70961755510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1920,7 +1896,7 @@
         <!--GeneralVC-->
         <scene sceneID="E0d-0j-Zba">
             <objects>
-                <viewController storyboardIdentifier="feelingsVC" id="B0o-EK-cU7" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="feelingsVC" id="B0o-EK-cU7" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S8O-QY-uli"/>
                         <viewControllerLayoutGuide type="bottom" id="SCi-vy-Xqe"/>
@@ -1956,10 +1932,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talk, laugh, and cry when you need to. Talking with friends or family about your feelings is a healthy way to relieve stress." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFU-0M-sKB">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="TUt-3F-Ghl"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="95.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -2006,7 +1979,7 @@
         <!--GeneralVC-->
         <scene sceneID="VRh-Km-rmI">
             <objects>
-                <viewController storyboardIdentifier="bodyVC" id="0A1-s1-DNq" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bodyVC" id="0A1-s1-DNq" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JUy-dj-IRr"/>
                         <viewControllerLayoutGuide type="bottom" id="qAv-Fr-Eed"/>
@@ -2042,10 +2015,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqp-tD-673">
-                                <rect key="frame" x="21" y="230" width="333" height="154"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="154" id="gx0-ma-3Gx"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="230" width="333" height="143.5"/>
                                 <string key="text">Starting with your toes, go up through your body, gradually clenching each of your muscles. Keep your whole body clenched, hold and then release to let go of all the tension.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2093,7 +2063,7 @@
         <!--GeneralVC-->
         <scene sceneID="M4S-OS-Vbq">
             <objects>
-                <viewController storyboardIdentifier="danceVC" id="EpU-4X-G5i" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="danceVC" id="EpU-4X-G5i" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IBy-u3-f6e"/>
                         <viewControllerLayoutGuide type="bottom" id="caM-UA-8Mh"/>
@@ -2129,10 +2099,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1S-ya-Jzq">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="b6E-jz-gih"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="119.5"/>
                                 <string key="text">Combining music and dance can help build self esteem, lift your mood and reduce anxiety…so go dance like no one’s watching!
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -2181,7 +2148,7 @@
         <!--GeneralVC-->
         <scene sceneID="J5I-ed-GQZ">
             <objects>
-                <viewController storyboardIdentifier="waterVC" id="bGZ-hr-Ox2" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="waterVC" id="bGZ-hr-Ox2" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aHM-hv-zdP"/>
                         <viewControllerLayoutGuide type="bottom" id="T7N-Bj-6NE"/>
@@ -2217,10 +2184,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cleanse your system of toxins that have accumulated in your body and may be causing tension. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yem-Ua-7YJ">
-                                <rect key="frame" x="21" y="260" width="333" height="79"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="yKl-RS-KcL"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -2267,7 +2231,7 @@
         <!--GeneralVC-->
         <scene sceneID="YdI-d7-pfU">
             <objects>
-                <viewController storyboardIdentifier="templesVC" id="1zu-BU-ysk" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="templesVC" id="1zu-BU-ysk" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bm6-6H-7cB"/>
                         <viewControllerLayoutGuide type="bottom" id="akQ-6j-JXj"/>
@@ -2279,7 +2243,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgTemples" translatesAutoresizingMaskIntoConstraints="NO" id="Q0e-jt-XyG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Massage your temples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8g-P8-HHO">
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Massage your temples" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8g-P8-HHO">
                                 <rect key="frame" x="16" y="180" width="343" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="GeM-NV-aib"/>
@@ -2303,10 +2267,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeZ-1e-K1z">
-                                <rect key="frame" x="21" y="240" width="333" height="147"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="147" id="Ay2-u0-QHy"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="240" width="333" height="143.5"/>
                                 <string key="text">Use your index and middle fingertips to give those temples a gentle knead. Massaging your temples helps relax the other muscles in your body as well as soothing your headache symptoms.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2329,10 +2290,12 @@
                             <constraint firstItem="z4A-BO-D4D" firstAttribute="top" secondItem="bm6-6H-7cB" secondAttribute="bottom" constant="8" symbolic="YES" id="2uI-5n-ZXy"/>
                             <constraint firstItem="z4A-BO-D4D" firstAttribute="trailing" secondItem="c8g-P8-HHO" secondAttribute="trailing" id="80y-C0-VZz"/>
                             <constraint firstItem="z4A-BO-D4D" firstAttribute="trailing" secondItem="Ogf-16-9tE" secondAttribute="trailingMargin" id="8F0-3v-2Sx"/>
+                            <constraint firstItem="c8g-P8-HHO" firstAttribute="trailing" secondItem="Ogf-16-9tE" secondAttribute="trailingMargin" id="Bm5-P6-PiP"/>
                             <constraint firstItem="AeZ-1e-K1z" firstAttribute="leading" secondItem="Ogf-16-9tE" secondAttribute="leadingMargin" constant="5" id="PMk-yk-xMv"/>
                             <constraint firstAttribute="trailing" secondItem="vV9-Kq-7fD" secondAttribute="trailing" id="S9P-R3-lll"/>
                             <constraint firstItem="c8g-P8-HHO" firstAttribute="centerX" secondItem="AeZ-1e-K1z" secondAttribute="centerX" id="Za8-tt-42e"/>
                             <constraint firstItem="vV9-Kq-7fD" firstAttribute="leading" secondItem="Ogf-16-9tE" secondAttribute="leading" id="aVj-4F-Xnc"/>
+                            <constraint firstItem="c8g-P8-HHO" firstAttribute="leading" secondItem="Ogf-16-9tE" secondAttribute="leadingMargin" id="f3p-kz-PGs"/>
                             <constraint firstAttribute="trailing" secondItem="Q0e-jt-XyG" secondAttribute="trailing" id="l4H-UR-Hms"/>
                             <constraint firstItem="Q0e-jt-XyG" firstAttribute="leading" secondItem="Ogf-16-9tE" secondAttribute="leading" id="qez-ci-f9Y"/>
                             <constraint firstItem="AeZ-1e-K1z" firstAttribute="top" secondItem="c8g-P8-HHO" secondAttribute="bottom" constant="26" id="qg5-gg-wXK"/>
@@ -2354,7 +2317,7 @@
         <!--GeneralVC-->
         <scene sceneID="utX-mt-wf4">
             <objects>
-                <viewController storyboardIdentifier="standVC" id="clf-m5-ls3" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="standVC" id="clf-m5-ls3" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QBo-hr-iE5"/>
                         <viewControllerLayoutGuide type="bottom" id="E6j-Zh-hga"/>
@@ -2390,10 +2353,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmp-Eb-238">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="G1v-Gc-a2Q"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="95.5"/>
                                 <string key="text">Good posture can actually make you feel more in control and less anxious. Power poses of confidence decrease levels of the stress hormone cortisol.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2441,7 +2401,7 @@
         <!--GeneralVC-->
         <scene sceneID="XdO-Ue-4OM">
             <objects>
-                <viewController storyboardIdentifier="sleepVC" id="zAF-IC-fyI" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sleepVC" id="zAF-IC-fyI" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kax-kK-cAo"/>
                         <viewControllerLayoutGuide type="bottom" id="yJ8-BH-0tH"/>
@@ -2477,10 +2437,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A ten minute power nap can effectively reduce stress, improve your mood and increase alertness!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JB2-1L-gcr">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="gV7-RI-hne"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -2527,7 +2484,7 @@
         <!--GeneralVC-->
         <scene sceneID="xNV-Pf-HK5">
             <objects>
-                <viewController storyboardIdentifier="breatheVC" id="sfT-dZ-wsb" customClass="GeneralVC" customModule="Tabbar_App_example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="breatheVC" id="sfT-dZ-wsb" customClass="GeneralVC" customModule="Dimple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ffc-Vy-1ZJ"/>
                         <viewControllerLayoutGuide type="bottom" id="NRB-pi-MnR"/>
@@ -2563,10 +2520,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taking a deep breath has been shown to lower cortisol levels, which can help reduce stress and anxiety. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rl4-KH-aQX">
-                                <rect key="frame" x="21" y="260" width="333" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="wh1-6U-z9p"/>
-                                </constraints>
+                                <rect key="frame" x="21" y="260" width="333" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -2646,6 +2600,6 @@
         <image name="yellowStar" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xeb-hw-cCN"/>
+        <segue reference="A03-qH-mJh"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -33,26 +33,7 @@
 		52FCA92A1F2A98AA00C473AC /* DatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA9291F2A98AA00C473AC /* DatePage.swift */; };
 		52FCA92E1F2C0BC200C473AC /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FCA92D1F2C0BC200C473AC /* CalendarTableViewCell.swift */; };
 		5C3E6844F86157E47C17A39C /* Pods_Dimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCBA9FD116BB9E59F3B054E /* Pods_Dimple.framework */; };
-		8B1161D13F4C2D19B46D3145 /* Pods_DimpleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B469F1112D2E634445E85F87 /* Pods_DimpleTests.framework */; };
-		EA18A785A24F83FD7B03114A /* Pods_DimpleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B55AD5DB3DFD626DCC573D /* Pods_DimpleUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		52B082A01F0D67B00044AC85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52B082831F0D67AF0044AC85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B0828A1F0D67AF0044AC85;
-			remoteInfo = "Tabbar App example";
-		};
-		52B082AB1F0D67B00044AC85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52B082831F0D67AF0044AC85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B0828A1F0D67AF0044AC85;
-			remoteInfo = "Tabbar App example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0FCBA9FD116BB9E59F3B054E /* Pods_Dimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,8 +61,6 @@
 		52B082951F0D67AF0044AC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B082981F0D67AF0044AC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B0829A1F0D67AF0044AC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52B0829F1F0D67B00044AC85 /* DimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B082AA1F0D67B00044AC85 /* DimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B21A0A1F2709CB0045BB3A /* CheckboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxViewController.swift; sourceTree = "<group>"; };
 		52FCA9291F2A98AA00C473AC /* DatePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePage.swift; sourceTree = "<group>"; };
 		52FCA92D1F2C0BC200C473AC /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
@@ -101,22 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3E6844F86157E47C17A39C /* Pods_Dimple.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52B0829C1F0D67B00044AC85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B1161D13F4C2D19B46D3145 /* Pods_DimpleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52B082A71F0D67B00044AC85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA18A785A24F83FD7B03114A /* Pods_DimpleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,8 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				52B0828B1F0D67AF0044AC85 /* Dimple.app */,
-				52B0829F1F0D67B00044AC85 /* DimpleTests.xctest */,
-				52B082AA1F0D67B00044AC85 /* DimpleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,48 +239,6 @@
 			productReference = 52B0828B1F0D67AF0044AC85 /* Dimple.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52B0829E1F0D67B00044AC85 /* DimpleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52B082B61F0D67B00044AC85 /* Build configuration list for PBXNativeTarget "DimpleTests" */;
-			buildPhases = (
-				2CFB90E030E6918C5F80D1DA /* [CP] Check Pods Manifest.lock */,
-				52B0829B1F0D67B00044AC85 /* Sources */,
-				52B0829C1F0D67B00044AC85 /* Frameworks */,
-				52B0829D1F0D67B00044AC85 /* Resources */,
-				ADB9399E92EAF7D0CF71D995 /* [CP] Embed Pods Frameworks */,
-				3B7F0C334CA12EB8D0259CE6 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52B082A11F0D67B00044AC85 /* PBXTargetDependency */,
-			);
-			name = DimpleTests;
-			productName = "Tabbar App exampleTests";
-			productReference = 52B0829F1F0D67B00044AC85 /* DimpleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52B082A91F0D67B00044AC85 /* DimpleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52B082B91F0D67B00044AC85 /* Build configuration list for PBXNativeTarget "DimpleUITests" */;
-			buildPhases = (
-				69A87AF98FFE62E1FFCEAFB1 /* [CP] Check Pods Manifest.lock */,
-				52B082A61F0D67B00044AC85 /* Sources */,
-				52B082A71F0D67B00044AC85 /* Frameworks */,
-				52B082A81F0D67B00044AC85 /* Resources */,
-				F0FB15336A1CE7DFC2785379 /* [CP] Embed Pods Frameworks */,
-				A67F9C87EF2449C82FEE8885 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52B082AC1F0D67B00044AC85 /* PBXTargetDependency */,
-			);
-			name = DimpleUITests;
-			productName = "Tabbar App exampleUITests";
-			productReference = 52B082AA1F0D67B00044AC85 /* DimpleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,18 +253,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9ZJ7PC53XG;
 						ProvisioningStyle = Automatic;
-					};
-					52B0829E1F0D67B00044AC85 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9ZJ7PC53XG;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 52B0828A1F0D67AF0044AC85;
-					};
-					52B082A91F0D67B00044AC85 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9ZJ7PC53XG;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 52B0828A1F0D67AF0044AC85;
 					};
 				};
 			};
@@ -363,8 +270,6 @@
 			projectRoot = "";
 			targets = (
 				52B0828A1F0D67AF0044AC85 /* Dimple */,
-				52B0829E1F0D67B00044AC85 /* DimpleTests */,
-				52B082A91F0D67B00044AC85 /* DimpleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -387,69 +292,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52B0829D1F0D67B00044AC85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52B082A81F0D67B00044AC85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		2059FE8DF5828FCCAC2C09DA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2CFB90E030E6918C5F80D1DA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3B7F0C334CA12EB8D0259CE6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DimpleTests/Pods-DimpleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		69A87AF98FFE62E1FFCEAFB1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,51 +340,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dimple/Pods-Dimple-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A67F9C87EF2449C82FEE8885 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DimpleUITests/Pods-DimpleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ADB9399E92EAF7D0CF71D995 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DimpleTests/Pods-DimpleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0FB15336A1CE7DFC2785379 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DimpleUITests/Pods-DimpleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -564,34 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52B0829B1F0D67B00044AC85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52B082A61F0D67B00044AC85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		52B082A11F0D67B00044AC85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52B0828A1F0D67AF0044AC85 /* Dimple */;
-			targetProxy = 52B082A01F0D67B00044AC85 /* PBXContainerItemProxy */;
-		};
-		52B082AC1F0D67B00044AC85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52B0828A1F0D67AF0044AC85 /* Dimple */;
-			targetProxy = 52B082AB1F0D67B00044AC85 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52B082921F0D67AF0044AC85 /* Main.storyboard */ = {
@@ -739,68 +513,6 @@
 			};
 			name = Release;
 		};
-		52B082B71F0D67B00044AC85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D064F77D556574132E938A2D /* Pods-DimpleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
-				INFOPLIST_FILE = "Tabbar App exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tabbar-App-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimple.app/Dimple";
-			};
-			name = Debug;
-		};
-		52B082B81F0D67B00044AC85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D88741208FE7185A5A0736 /* Pods-DimpleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
-				INFOPLIST_FILE = "Tabbar App exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tabbar-App-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimple.app/Dimple";
-			};
-			name = Release;
-		};
-		52B082BA1F0D67B00044AC85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E41E329E6270C4CFED6D6359 /* Pods-DimpleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
-				INFOPLIST_FILE = "Tabbar App exampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tabbar-App-exampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Tabbar App example";
-			};
-			name = Debug;
-		};
-		52B082BB1F0D67B00044AC85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFB4A5EB06093DF189F245D6 /* Pods-DimpleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
-				INFOPLIST_FILE = "Tabbar App exampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tabbar-App-exampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Tabbar App example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -818,24 +530,6 @@
 			buildConfigurations = (
 				52B082B41F0D67B00044AC85 /* Debug */,
 				52B082B51F0D67B00044AC85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52B082B61F0D67B00044AC85 /* Build configuration list for PBXNativeTarget "DimpleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52B082B71F0D67B00044AC85 /* Debug */,
-				52B082B81F0D67B00044AC85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52B082B91F0D67B00044AC85 /* Build configuration list for PBXNativeTarget "DimpleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52B082BA1F0D67B00044AC85 /* Debug */,
-				52B082BB1F0D67B00044AC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

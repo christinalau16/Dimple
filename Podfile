@@ -6,7 +6,8 @@ target 'Dimple' do
   use_frameworks!
 
   # Pods for Dimple
-	pod ‘JTAppleCalendar’
+	pod 'JTAppleCalendar'
+    pod 'Google-Mobile-Ads-SDK'
 
   target 'DimpleTests' do
     inherit! :search_paths

@@ -21,7 +21,6 @@ class WriteVC: UIViewController, UITextViewDelegate {
         super.viewDidLoad()
         if bgImageView.viewWithTag(18) == nil
         {
-            //  Mask header image
             let toBeMaskedFrame = CGRect(x: 0, y: 0, width: 1.5 * self.bgImageView.frame.width, height: 1.5 * self.bgImageView.frame.height)
             let maskFrame = self.maskHeaderImageView(frame: toBeMaskedFrame)
             maskFrame.tag = 18
@@ -41,15 +40,6 @@ class WriteVC: UIViewController, UITextViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         self.myTextView.text = "Channel all the suppressed emotions into words. Write a few sentences on what’s troubling you:"
         containerViewController?.helpedButton.awakeFromNib()
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        if self.myTextView.text != "Channel all the suppressed emotions into words. Write a few sentences on what’s troubling you:" && self.myTextView.text != ""
-        {
-            let alertController = UIAlertController(title: nil, message: "Written text will be deleted when you move to the next page", preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "Got it", style: .cancel, handler: { _ in }))
-            self.present(alertController, animated: true, completion: nil)
-        }
     }
     
     override var preferredStatusBarStyle : UIStatusBarStyle
@@ -88,7 +78,7 @@ class WriteVC: UIViewController, UITextViewDelegate {
         {
             textView.text = ""
         }
-        myScrollView.setContentOffset(CGPoint(x: 0, y: 100), animated: true)
+        myScrollView.setContentOffset(CGPoint(x: 0, y:  80), animated: true)
         textView.becomeFirstResponder() //Optional
     }
     
