@@ -58,7 +58,7 @@
 		0FCBA9FD116BB9E59F3B054E /* Pods_Dimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52312EFA1F1ED5FF0053335A /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		52312EFC1F1ED71E0053335A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		527273861F0DB86B00DD19C6 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootPageViewController.swift; path = ../RootPageViewController.swift; sourceTree = "<group>"; };
+		527273861F0DB86B00DD19C6 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		527273891F133E1100DD19C6 /* GeneralVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralVC.swift; sourceTree = "<group>"; };
 		528357061F1883FE00C7F6D2 /* DoNothingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoNothingVC.swift; sourceTree = "<group>"; };
 		5283570B1F19CFC500C7F6D2 /* musicSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicSong.mp3; sourceTree = "<group>"; };
