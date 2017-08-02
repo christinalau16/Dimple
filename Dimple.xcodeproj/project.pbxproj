@@ -254,7 +254,7 @@
 				TargetAttributes = {
 					52B0828A1F0D67AF0044AC85 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9ZJ7PC53XG;
+						DevelopmentTeam = G6D867UR2U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -493,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_ACTIVITY_MODE = "";
 				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
+				DEVELOPMENT_TEAM = G6D867UR2U;
 				INFOPLIST_FILE = "$(SRCROOT)/Dimple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poweringpositivity.Dimple;
@@ -509,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_ACTIVITY_MODE = "";
-				DEVELOPMENT_TEAM = 9ZJ7PC53XG;
+				DEVELOPMENT_TEAM = G6D867UR2U;
 				INFOPLIST_FILE = "$(SRCROOT)/Dimple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poweringpositivity.Dimple;

@@ -21,7 +21,6 @@ class AdViewController: UIViewController, GADBannerViewDelegate  {
         bannerView.adUnitID = "ca-app-pub-8403286037753535/4976165527"
         bannerView.rootViewController = self
         
-        request.testDevices = ["18569e8a893318c4e916b7f2371b972f" ];
         bannerView.load(request)
         bannerView.delegate = self
     }
